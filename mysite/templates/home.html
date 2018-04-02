@@ -1,0 +1,100 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap-grid.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "assets/css/bootstrap-reboot.css" %}">
+    <title>Bias Algorithms</title>
+  </head>
+  <body>
+
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="{% static "assets\img\logo.png" %}"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">home</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="#">test</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start slide -->
+    <div id="slides" class="carousel slide" date-ride="carouse">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{% static "assets\img\background.png" %}">
+          <div class="carousel-caption">
+            <h1 class="display-2">Bootstrap</h1>
+            <h3>Complete Website Layout</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">view demo</button>
+            <button type="button" class="btn btn-primary btn-lg">get started </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{% static "assets\img\background2.png" %}">
+        </div>
+        <div class="carousel-item">
+          <img src="{% static "assets\img\background3.png" %}">
+        </div>
+      </div>
+    </div>
+
+    <!-- end slides -->
+
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-sm-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">button</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Built with ease.</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
