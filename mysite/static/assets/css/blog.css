@@ -44,3 +44,64 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+/*** work ***/
+#work {
+	padding: 6em 4em 3em;
+	background-color: #fff;
+}
+
+#work h2 {
+	color: #FF6945;
+	margin-bottom: .7em;
+}
+
+
+#work .tag-line {
+	color: #767779;
+	font-size: 1.4em;
+	margin-bottom: 4em;
+}
+
+#work .work-row {
+	margin-bottom: 5.5em;
+}
+
+.details h3 {
+	color: #738182;
+	text-transform: uppercase;
+}
+
+.details .platform{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin: 2em 0 -0.1em;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+	color: #ff7654;
+}
+
+.details i {
+	color: #ff7654;
+	margin-right: 1em;
+}
+
+.details p {
+	color: #738182;
+	font-family: "Maven pro", sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	margin-bottom: 1.8em;
+}
+
+.details a, .details a:link, .details a:active{
+		color: rgba(255, 103, 68, 0.91);
+		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		background-color: #fff;
+}
+
+.details a:hover, .details a:focus {
+		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
+		background-color: rgba(255, 103, 68, 0.91) !important;
+		color: #fff;
+}
